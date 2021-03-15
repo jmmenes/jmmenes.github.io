@@ -44,6 +44,14 @@ img {
   margin-right: auto;
 }
 
+img.xwing {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -ms-transform: rotate(20deg); /* IE 9 Rotate 20 degrees */
+  transform: rotate(20deg);
+}
+
 p {
   font-family: "proxima_nova_rgregular", sans-serif;
   font-size: 18px;
